@@ -2,20 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.bgOne {
+  @apply bg-white dark:bg-mycolor-100;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.bgHeader {
+  @apply bg-mycolor-300 hover:bg-mycolor-300 dark:hover:bg-mycolor-300 dark:text-black !important;
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.activeHeader {
+  @apply underline !important;
+}
+.validateLabel {
+  @apply text-black dark:text-white !important;
+}
+.validateError {
+  @apply text-red-700 dark:text-red-400 !important;
 }

@@ -1,0 +1,15 @@
+export const siteMetadata = {
+  title: "Busra NextJS",
+  author: "Büşra ASMAFİLİZ",
+  headerTitle: "Deneme",
+  description: "loremipsum",
+  language: "en-us",
+  theme: "system",
+  siteUrl: "https://www.busra.com",
+  siteLogo: "/pp.png",
+  socialBanner: "/socialmedia.jpg",
+  email: "busraurekk8454@gmail.com",
+  github: "https://github.com/busraurek",
+  linkedin: "https://www.linkedin.com/in/busraurek/",
+  locale: "en-US",
+};
